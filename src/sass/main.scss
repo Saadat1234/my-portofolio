@@ -1,0 +1,79 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Merienda|Lobster');
+
+body {
+  background-image: url('../images/bbb.jpg');
+  background-size: cover;
+
+}
+
+h1, h4 {
+  font-family: 'Merienda', cursive;
+  color: black;
+}
+
+h2, h3 {
+  font-family: 'Lobster', cursive;
+}
+
+h3 {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+
+
+.form {
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid 2px;
+  padding-bottom: 30px;
+}
+
+
+aside img {
+  margin-top: 100px;
+  width: 250px;
+  height: 250px;
+  border: solid 4px;
+  border-color: red;
+}
+
+.badge {
+  margin-right: 15px;
+
+}
+
+.sitefooter {
+  background-color: white;
+}
+
+.socialM {
+  list-style: none;
+
+}
+
+.mediaS {
+    border-radius: 100%;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 1em;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+}
+
+.mediaS:hover{
+    color: black;
+    background: blue;
+    border-color: red;
+}
